@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - EmployeeServiceImplTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>EmployeeServiceImplTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.mindex.challenge.service.impl.html">com.mindex.challenge.service.impl</a> &gt; EmployeeServiceImplTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.358s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">TestCompensation</td>
+<td class="success">0.264s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">TestReportingStructure</td>
+<td class="success">0.069s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCreateReadUpdate</td>
+<td class="success">0.025s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2024-08-26T14:46:33.859-04:00  INFO 8040 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.mindex.challenge.service.impl.EmployeeServiceImplTest]: EmployeeServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-26T14:46:33.872-04:00  INFO 8040 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.mindex.challenge.ChallengeApplication for test class com.mindex.challenge.service.impl.EmployeeServiceImplTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.3)
+
+2024-08-26T14:46:33.924-04:00  INFO 8040 --- [    Test worker] c.m.c.s.impl.EmployeeServiceImplTest     : Starting EmployeeServiceImplTest using Java 22.0.2 with PID 8040 (started by eshap in C:\Projects\mindex-code-challenge\mindex-code-challenge)
+2024-08-26T14:46:33.924-04:00 DEBUG 8040 --- [    Test worker] c.m.c.s.impl.EmployeeServiceImplTest     : Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-08-26T14:46:33.925-04:00  INFO 8040 --- [    Test worker] c.m.c.s.impl.EmployeeServiceImplTest     : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2024-08-26T14:46:34.087-04:00  INFO 8040 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2024-08-26T14:46:34.093-04:00  INFO 8040 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 2 MongoDB repository interfaces.
+2024-08-26T14:46:34.319-04:00  INFO 8040 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2024-08-26T14:46:34.333-04:00  INFO 8040 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-26T14:46:34.334-04:00  INFO 8040 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-08-26T14:46:34.401-04:00  INFO 8040 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-26T14:46:34.402-04:00  INFO 8040 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 474 ms
+2024-08-26T14:46:34.485-04:00  INFO 8040 --- [    Test worker] de.bwaldvogel.mongo.MongoServer          : started MongoServer(port: 54262, ssl: false)
+2024-08-26T14:46:34.489-04:00  INFO 8040 --- [    Test worker] org.mongodb.driver.client                : MongoClient with metadata {&quot;driver&quot;: {&quot;name&quot;: &quot;mongo-java-driver|sync&quot;, &quot;version&quot;: &quot;4.11.1&quot;}, &quot;os&quot;: {&quot;type&quot;: &quot;Windows&quot;, &quot;name&quot;: &quot;Windows 11&quot;, &quot;architecture&quot;: &quot;amd64&quot;, &quot;version&quot;: &quot;10.0&quot;}, &quot;platform&quot;: &quot;Java/Oracle Corporation/22.0.2+9-70&quot;} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@35adf623, com.mongodb.Jep395RecordCodecProvider@456f7d9e, com.mongodb.KotlinCodecProvider@75d366c2]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[127.0.0.1:54262], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=UNSPECIFIED, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2024-08-26T14:46:34.490-04:00  INFO 8040 --- [-server-worker2] d.b.mongo.wire.MongoWireProtocolHandler  : client [id: 0x411bff52, L:/127.0.0.1:54262 - R:/127.0.0.1:54263] connected
+2024-08-26T14:46:34.490-04:00  INFO 8040 --- [-server-worker1] d.b.mongo.wire.MongoWireProtocolHandler  : client [id: 0x0fbe9829, L:/127.0.0.1:54262 - R:/127.0.0.1:54264] connected
+2024-08-26T14:46:34.493-04:00  INFO 8040 --- [127.0.0.1:54262] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:54262, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=4219200}
+2024-08-26T14:46:34.557-04:00  INFO 8040 --- [-server-worker3] d.b.mongo.wire.MongoWireProtocolHandler  : client [id: 0x86344a9d, L:/127.0.0.1:54262 - R:/127.0.0.1:54265] connected
+2024-08-26T14:46:34.562-04:00  INFO 8040 --- [-server-worker3] d.b.mongo.backend.AbstractMongoBackend   : created database test
+2024-08-26T14:46:34.562-04:00  INFO 8040 --- [-server-worker3] d.b.mongo.backend.AbstractMongoDatabase  : adding unique _id index for collection employee
+2024-08-26T14:46:34.562-04:00  INFO 8040 --- [-server-worker3] d.b.mongo.backend.AbstractMongoDatabase  : created collection test.employee
+2024-08-26T14:46:34.708-04:00  INFO 8040 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 54266 (http) with context path ''
+2024-08-26T14:46:34.714-04:00  INFO 8040 --- [    Test worker] c.m.c.s.impl.EmployeeServiceImplTest     : Started EmployeeServiceImplTest in 0.839 seconds (process running for 6.699)
+2024-08-26T14:46:34.842-04:00  INFO 8040 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-26T14:46:34.843-04:00  INFO 8040 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-26T14:46:34.844-04:00  INFO 8040 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-26T14:46:34.890-04:00 DEBUG 8040 --- [o-auto-1-exec-1] c.m.c.controller.EmployeeController      : Received employee create request for [com.mindex.challenge.data.Employee@6d6576af]
+2024-08-26T14:46:34.891-04:00 DEBUG 8040 --- [o-auto-1-exec-1] c.m.c.service.impl.EmployeeServiceImpl   : Creating employee [com.mindex.challenge.data.Employee@6d6576af]
+2024-08-26T14:46:34.951-04:00 DEBUG 8040 --- [o-auto-1-exec-2] c.m.c.controller.EmployeeController      : Received compensation create request for [com.mindex.challenge.data.Compensation@6acb4660]
+2024-08-26T14:46:34.951-04:00 DEBUG 8040 --- [o-auto-1-exec-2] c.m.c.service.impl.EmployeeServiceImpl   : Creating compensation [com.mindex.challenge.data.Compensation@6acb4660]
+2024-08-26T14:46:34.964-04:00  INFO 8040 --- [-server-worker3] d.b.mongo.backend.AbstractMongoDatabase  : adding unique _id index for collection compensation
+2024-08-26T14:46:34.965-04:00  INFO 8040 --- [-server-worker3] d.b.mongo.backend.AbstractMongoDatabase  : created collection test.compensation
+2024-08-26T14:46:34.971-04:00 DEBUG 8040 --- [o-auto-1-exec-3] c.m.c.controller.EmployeeController      : Received compensation read request for employee id [07cdc466-c56e-4f68-8291-ab5737fa3596]
+2024-08-26T14:46:34.990-04:00 DEBUG 8040 --- [o-auto-1-exec-4] c.m.c.controller.EmployeeController      : Received employee create request for [com.mindex.challenge.data.Employee@4140bd49]
+2024-08-26T14:46:34.990-04:00 DEBUG 8040 --- [o-auto-1-exec-4] c.m.c.service.impl.EmployeeServiceImpl   : Creating employee [com.mindex.challenge.data.Employee@4140bd49]
+2024-08-26T14:46:34.995-04:00 DEBUG 8040 --- [o-auto-1-exec-5] c.m.c.controller.EmployeeController      : Received employee read request for id [084a5f94-f33a-460a-8b5f-20ac05dfcf84]
+2024-08-26T14:46:34.996-04:00 DEBUG 8040 --- [o-auto-1-exec-5] c.m.c.service.impl.EmployeeServiceImpl   : Creating employee with id [084a5f94-f33a-460a-8b5f-20ac05dfcf84]
+2024-08-26T14:46:35.004-04:00 DEBUG 8040 --- [o-auto-1-exec-6] c.m.c.controller.EmployeeController      : Received employee update request for id [084a5f94-f33a-460a-8b5f-20ac05dfcf84] and employee [com.mindex.challenge.data.Employee@5afadd59]
+2024-08-26T14:46:35.004-04:00 DEBUG 8040 --- [o-auto-1-exec-6] c.m.c.service.impl.EmployeeServiceImpl   : Updating employee [com.mindex.challenge.data.Employee@5afadd59]
+2024-08-26T14:46:35.021-04:00 DEBUG 8040 --- [o-auto-1-exec-7] c.m.c.controller.EmployeeController      : Received employee create request for [com.mindex.challenge.data.Employee@50f979f8]
+2024-08-26T14:46:35.021-04:00 DEBUG 8040 --- [o-auto-1-exec-7] c.m.c.service.impl.EmployeeServiceImpl   : Creating employee [com.mindex.challenge.data.Employee@50f979f8]
+2024-08-26T14:46:35.035-04:00 DEBUG 8040 --- [o-auto-1-exec-8] c.m.c.controller.EmployeeController      : Received employee create request for [com.mindex.challenge.data.Employee@1944c8b4]
+2024-08-26T14:46:35.035-04:00 DEBUG 8040 --- [o-auto-1-exec-8] c.m.c.service.impl.EmployeeServiceImpl   : Creating employee [com.mindex.challenge.data.Employee@1944c8b4]
+2024-08-26T14:46:35.051-04:00 DEBUG 8040 --- [o-auto-1-exec-9] c.m.c.controller.EmployeeController      : Received employee create request for [com.mindex.challenge.data.Employee@2df579d0]
+2024-08-26T14:46:35.051-04:00 DEBUG 8040 --- [o-auto-1-exec-9] c.m.c.service.impl.EmployeeServiceImpl   : Creating employee [com.mindex.challenge.data.Employee@2df579d0]
+2024-08-26T14:46:35.061-04:00 DEBUG 8040 --- [-auto-1-exec-10] c.m.c.controller.EmployeeController      : Received employee report request for id [4d4d3f6c-c373-42e7-b135-49e6c449c2c1]
+2024-08-26T14:46:35.061-04:00 DEBUG 8040 --- [-auto-1-exec-10] c.m.c.service.impl.EmployeeServiceImpl   : Searching for reports for employee [4d4d3f6c-c373-42e7-b135-49e6c449c2c1]
+Expected: 2
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.8</a> at Aug 26, 2024, 2:46:35 PM</p>
+</div>
+</div>
+</body>
+</html>
